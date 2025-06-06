@@ -2,13 +2,16 @@ require('dotenv').config();
 
 /* eslint-disable max-len */
 
+// IMPORTANT: Update the following configuration values before deploying to production
+// Replace all placeholder values with your actual production values
+
 export const port = process.env.PORT || 3000;
 export const host = process.env.WEBSITE_HOSTNAME || `localhost:${port}`;
 export const url = 'http://localhost:3001';
 export const socketUrl = process.env.SOCKET_URL || 'http://localhost:4001'
 export const socketPort = process.env.SOCKET_PORT || 4001;
 
-export const sitename = 'Your Site Name'; // Your site name
+export const sitename = 'Rentall'; // Your site name
 
 export const locales = ['en-US', 'es', 'it-IT', 'fr-FR', 'pt-PT', 'ar']; // default locale is the first one
 
