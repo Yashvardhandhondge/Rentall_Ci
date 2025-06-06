@@ -12,7 +12,6 @@ import pushNotificationRoutes from './libs/pushNotificationRoutes';
 import { verifyJWT_MW } from './libs/middleware';
 import paypalRoutes from './libs/payment/paypal/paypal';
 // import { connection } from './Websocket/connection';
-// import { socketPort } from './config';
 
 const app = express();
 const __DEV__ = environment;
